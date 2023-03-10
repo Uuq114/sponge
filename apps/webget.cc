@@ -32,7 +32,8 @@ void get_URL(const string &host, const string &path) {
     const string input(
         "GET " + path + " HTTP/1.1\r\n" +
         "Host: " + host + "\r\n" +
-        "Connection: close" + "\r\n\r\n"
+        "Connection: close" + "\r\n" +
+        "\r\n"
     );
     sock.write(input);
     sock.shutdown(SHUT_WR);
