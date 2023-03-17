@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
       <paths name="Remote Host (31ca34a2-337a-4148-bb0e-93cc379cf5fa)">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/tmp/tmp.GktnVpBlWF" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
