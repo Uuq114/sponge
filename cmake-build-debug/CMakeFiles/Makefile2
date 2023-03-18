@@ -546,8 +546,8 @@ tests/CMakeFiles/spongechecks.dir/clean:
 # Target rules for target tests/CMakeFiles/tcp_parser.dir
 
 # All Build rule for target.
-tests/CMakeFiles/tcp_parser.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/tcp_parser.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/tcp_parser.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\tcp_parser.dir\build.make tests/CMakeFiles/tcp_parser.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\tcp_parser.dir\build.make tests/CMakeFiles/tcp_parser.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=72,73 "Built target tcp_parser"
@@ -573,8 +573,8 @@ tests/CMakeFiles/tcp_parser.dir/clean:
 # Target rules for target tests/CMakeFiles/fsm_stream_reassembler_single.dir
 
 # All Build rule for target.
-tests/CMakeFiles/fsm_stream_reassembler_single.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/fsm_stream_reassembler_single.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/fsm_stream_reassembler_single.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\fsm_stream_reassembler_single.dir\build.make tests/CMakeFiles/fsm_stream_reassembler_single.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\fsm_stream_reassembler_single.dir\build.make tests/CMakeFiles/fsm_stream_reassembler_single.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=34,35 "Built target fsm_stream_reassembler_single"
@@ -600,8 +600,8 @@ tests/CMakeFiles/fsm_stream_reassembler_single.dir/clean:
 # Target rules for target tests/CMakeFiles/fsm_stream_reassembler_seq.dir
 
 # All Build rule for target.
-tests/CMakeFiles/fsm_stream_reassembler_seq.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/fsm_stream_reassembler_seq.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/fsm_stream_reassembler_seq.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\fsm_stream_reassembler_seq.dir\build.make tests/CMakeFiles/fsm_stream_reassembler_seq.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\fsm_stream_reassembler_seq.dir\build.make tests/CMakeFiles/fsm_stream_reassembler_seq.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=32,33 "Built target fsm_stream_reassembler_seq"
@@ -627,8 +627,8 @@ tests/CMakeFiles/fsm_stream_reassembler_seq.dir/clean:
 # Target rules for target tests/CMakeFiles/fsm_stream_reassembler_dup.dir
 
 # All Build rule for target.
-tests/CMakeFiles/fsm_stream_reassembler_dup.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/fsm_stream_reassembler_dup.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/fsm_stream_reassembler_dup.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\fsm_stream_reassembler_dup.dir\build.make tests/CMakeFiles/fsm_stream_reassembler_dup.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\fsm_stream_reassembler_dup.dir\build.make tests/CMakeFiles/fsm_stream_reassembler_dup.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=24,25 "Built target fsm_stream_reassembler_dup"
@@ -654,8 +654,8 @@ tests/CMakeFiles/fsm_stream_reassembler_dup.dir/clean:
 # Target rules for target tests/CMakeFiles/fsm_stream_reassembler_holes.dir
 
 # All Build rule for target.
-tests/CMakeFiles/fsm_stream_reassembler_holes.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/fsm_stream_reassembler_holes.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/fsm_stream_reassembler_holes.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\fsm_stream_reassembler_holes.dir\build.make tests/CMakeFiles/fsm_stream_reassembler_holes.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\fsm_stream_reassembler_holes.dir\build.make tests/CMakeFiles/fsm_stream_reassembler_holes.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=26,27 "Built target fsm_stream_reassembler_holes"
@@ -681,8 +681,8 @@ tests/CMakeFiles/fsm_stream_reassembler_holes.dir/clean:
 # Target rules for target tests/CMakeFiles/fsm_stream_reassembler_many.dir
 
 # All Build rule for target.
-tests/CMakeFiles/fsm_stream_reassembler_many.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/fsm_stream_reassembler_many.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/fsm_stream_reassembler_many.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\fsm_stream_reassembler_many.dir\build.make tests/CMakeFiles/fsm_stream_reassembler_many.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\fsm_stream_reassembler_many.dir\build.make tests/CMakeFiles/fsm_stream_reassembler_many.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=28,29 "Built target fsm_stream_reassembler_many"
@@ -708,8 +708,8 @@ tests/CMakeFiles/fsm_stream_reassembler_many.dir/clean:
 # Target rules for target tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir
 
 # All Build rule for target.
-tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\fsm_stream_reassembler_overlapping.dir\build.make tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\fsm_stream_reassembler_overlapping.dir\build.make tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=30,31 "Built target fsm_stream_reassembler_overlapping"
@@ -735,8 +735,8 @@ tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/clean:
 # Target rules for target tests/CMakeFiles/fsm_stream_reassembler_win.dir
 
 # All Build rule for target.
-tests/CMakeFiles/fsm_stream_reassembler_win.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/fsm_stream_reassembler_win.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/fsm_stream_reassembler_win.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\fsm_stream_reassembler_win.dir\build.make tests/CMakeFiles/fsm_stream_reassembler_win.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\fsm_stream_reassembler_win.dir\build.make tests/CMakeFiles/fsm_stream_reassembler_win.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=36,37 "Built target fsm_stream_reassembler_win"
@@ -762,8 +762,8 @@ tests/CMakeFiles/fsm_stream_reassembler_win.dir/clean:
 # Target rules for target tests/CMakeFiles/fsm_stream_reassembler_cap.dir
 
 # All Build rule for target.
-tests/CMakeFiles/fsm_stream_reassembler_cap.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/fsm_stream_reassembler_cap.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/fsm_stream_reassembler_cap.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\fsm_stream_reassembler_cap.dir\build.make tests/CMakeFiles/fsm_stream_reassembler_cap.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\fsm_stream_reassembler_cap.dir\build.make tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=22,23 "Built target fsm_stream_reassembler_cap"
@@ -789,8 +789,8 @@ tests/CMakeFiles/fsm_stream_reassembler_cap.dir/clean:
 # Target rules for target tests/CMakeFiles/byte_stream_construction.dir
 
 # All Build rule for target.
-tests/CMakeFiles/byte_stream_construction.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/byte_stream_construction.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/byte_stream_construction.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\byte_stream_construction.dir\build.make tests/CMakeFiles/byte_stream_construction.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\byte_stream_construction.dir\build.make tests/CMakeFiles/byte_stream_construction.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target byte_stream_construction"
@@ -816,8 +816,8 @@ tests/CMakeFiles/byte_stream_construction.dir/clean:
 # Target rules for target tests/CMakeFiles/byte_stream_one_write.dir
 
 # All Build rule for target.
-tests/CMakeFiles/byte_stream_one_write.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/byte_stream_one_write.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/byte_stream_one_write.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\byte_stream_one_write.dir\build.make tests/CMakeFiles/byte_stream_one_write.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\byte_stream_one_write.dir\build.make tests/CMakeFiles/byte_stream_one_write.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target byte_stream_one_write"
@@ -843,8 +843,8 @@ tests/CMakeFiles/byte_stream_one_write.dir/clean:
 # Target rules for target tests/CMakeFiles/byte_stream_two_writes.dir
 
 # All Build rule for target.
-tests/CMakeFiles/byte_stream_two_writes.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/byte_stream_two_writes.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/byte_stream_two_writes.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\byte_stream_two_writes.dir\build.make tests/CMakeFiles/byte_stream_two_writes.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\byte_stream_two_writes.dir\build.make tests/CMakeFiles/byte_stream_two_writes.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target byte_stream_two_writes"
@@ -870,8 +870,8 @@ tests/CMakeFiles/byte_stream_two_writes.dir/clean:
 # Target rules for target tests/CMakeFiles/byte_stream_capacity.dir
 
 # All Build rule for target.
-tests/CMakeFiles/byte_stream_capacity.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/byte_stream_capacity.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/byte_stream_capacity.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\byte_stream_capacity.dir\build.make tests/CMakeFiles/byte_stream_capacity.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\byte_stream_capacity.dir\build.make tests/CMakeFiles/byte_stream_capacity.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target byte_stream_capacity"
@@ -897,8 +897,8 @@ tests/CMakeFiles/byte_stream_capacity.dir/clean:
 # Target rules for target tests/CMakeFiles/byte_stream_many_writes.dir
 
 # All Build rule for target.
-tests/CMakeFiles/byte_stream_many_writes.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/byte_stream_many_writes.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/byte_stream_many_writes.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\byte_stream_many_writes.dir\build.make tests/CMakeFiles/byte_stream_many_writes.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\byte_stream_many_writes.dir\build.make tests/CMakeFiles/byte_stream_many_writes.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target byte_stream_many_writes"
@@ -924,8 +924,8 @@ tests/CMakeFiles/byte_stream_many_writes.dir/clean:
 # Target rules for target tests/CMakeFiles/wrapping_integers_cmp.dir
 
 # All Build rule for target.
-tests/CMakeFiles/wrapping_integers_cmp.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/wrapping_integers_cmp.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/wrapping_integers_cmp.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\wrapping_integers_cmp.dir\build.make tests/CMakeFiles/wrapping_integers_cmp.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\wrapping_integers_cmp.dir\build.make tests/CMakeFiles/wrapping_integers_cmp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=76,77 "Built target wrapping_integers_cmp"
@@ -951,8 +951,8 @@ tests/CMakeFiles/wrapping_integers_cmp.dir/clean:
 # Target rules for target tests/CMakeFiles/wrapping_integers_unwrap.dir
 
 # All Build rule for target.
-tests/CMakeFiles/wrapping_integers_unwrap.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/wrapping_integers_unwrap.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/wrapping_integers_unwrap.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\wrapping_integers_unwrap.dir\build.make tests/CMakeFiles/wrapping_integers_unwrap.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\wrapping_integers_unwrap.dir\build.make tests/CMakeFiles/wrapping_integers_unwrap.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=80,81 "Built target wrapping_integers_unwrap"
@@ -978,8 +978,8 @@ tests/CMakeFiles/wrapping_integers_unwrap.dir/clean:
 # Target rules for target tests/CMakeFiles/wrapping_integers_wrap.dir
 
 # All Build rule for target.
-tests/CMakeFiles/wrapping_integers_wrap.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/wrapping_integers_wrap.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/wrapping_integers_wrap.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\wrapping_integers_wrap.dir\build.make tests/CMakeFiles/wrapping_integers_wrap.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\wrapping_integers_wrap.dir\build.make tests/CMakeFiles/wrapping_integers_wrap.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=82,83 "Built target wrapping_integers_wrap"
@@ -1005,8 +1005,8 @@ tests/CMakeFiles/wrapping_integers_wrap.dir/clean:
 # Target rules for target tests/CMakeFiles/wrapping_integers_roundtrip.dir
 
 # All Build rule for target.
-tests/CMakeFiles/wrapping_integers_roundtrip.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/wrapping_integers_roundtrip.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/wrapping_integers_roundtrip.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\wrapping_integers_roundtrip.dir\build.make tests/CMakeFiles/wrapping_integers_roundtrip.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\wrapping_integers_roundtrip.dir\build.make tests/CMakeFiles/wrapping_integers_roundtrip.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=78,79 "Built target wrapping_integers_roundtrip"
@@ -1032,8 +1032,8 @@ tests/CMakeFiles/wrapping_integers_roundtrip.dir/clean:
 # Target rules for target tests/CMakeFiles/recv_connect.dir
 
 # All Build rule for target.
-tests/CMakeFiles/recv_connect.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/recv_connect.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/recv_connect.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\recv_connect.dir\build.make tests/CMakeFiles/recv_connect.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\recv_connect.dir\build.make tests/CMakeFiles/recv_connect.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=42,43 "Built target recv_connect"
@@ -1059,8 +1059,8 @@ tests/CMakeFiles/recv_connect.dir/clean:
 # Target rules for target tests/CMakeFiles/recv_transmit.dir
 
 # All Build rule for target.
-tests/CMakeFiles/recv_transmit.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/recv_transmit.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/recv_transmit.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\recv_transmit.dir\build.make tests/CMakeFiles/recv_transmit.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\recv_transmit.dir\build.make tests/CMakeFiles/recv_transmit.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=48,49 "Built target recv_transmit"
@@ -1086,8 +1086,8 @@ tests/CMakeFiles/recv_transmit.dir/clean:
 # Target rules for target tests/CMakeFiles/recv_window.dir
 
 # All Build rule for target.
-tests/CMakeFiles/recv_window.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/recv_window.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/recv_window.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\recv_window.dir\build.make tests/CMakeFiles/recv_window.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\recv_window.dir\build.make tests/CMakeFiles/recv_window.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=50,51 "Built target recv_window"
@@ -1113,8 +1113,8 @@ tests/CMakeFiles/recv_window.dir/clean:
 # Target rules for target tests/CMakeFiles/recv_reorder.dir
 
 # All Build rule for target.
-tests/CMakeFiles/recv_reorder.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/recv_reorder.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/recv_reorder.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\recv_reorder.dir\build.make tests/CMakeFiles/recv_reorder.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\recv_reorder.dir\build.make tests/CMakeFiles/recv_reorder.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=44,45 "Built target recv_reorder"
@@ -1140,8 +1140,8 @@ tests/CMakeFiles/recv_reorder.dir/clean:
 # Target rules for target tests/CMakeFiles/recv_close.dir
 
 # All Build rule for target.
-tests/CMakeFiles/recv_close.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/recv_close.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/recv_close.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\recv_close.dir\build.make tests/CMakeFiles/recv_close.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\recv_close.dir\build.make tests/CMakeFiles/recv_close.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=40,41 "Built target recv_close"
@@ -1167,8 +1167,8 @@ tests/CMakeFiles/recv_close.dir/clean:
 # Target rules for target tests/CMakeFiles/recv_special.dir
 
 # All Build rule for target.
-tests/CMakeFiles/recv_special.dir/all: tests/CMakeFiles/spongechecks.dir/all
 tests/CMakeFiles/recv_special.dir/all: libsponge/CMakeFiles/sponge.dir/all
+tests/CMakeFiles/recv_special.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\recv_special.dir\build.make tests/CMakeFiles/recv_special.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\recv_special.dir\build.make tests/CMakeFiles/recv_special.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=\\wsl$$\Ubuntu-18.04\home\uuq114\cs144\sponge\cmake-build-debug\CMakeFiles --progress-num=46,47 "Built target recv_special"
