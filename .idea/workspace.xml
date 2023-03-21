@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeRunConfigurationManager">
     <generated />
   </component>
@@ -14,9 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6f3ae81-9831-4bb3-8175-037c603e5840" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/compile_commands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libsponge/tcp_sender.cc" beforeDir="false" afterPath="$PROJECT_DIR$/libsponge/tcp_sender.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libsponge/tcp_sender.hh" beforeDir="false" afterPath="$PROJECT_DIR$/libsponge/tcp_sender.hh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libsponge/wrapping_integers.hh" beforeDir="false" afterPath="$PROJECT_DIR$/libsponge/wrapping_integers.hh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/webget_t.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tests/webget_t.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
