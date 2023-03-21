@@ -1,0 +1,2 @@
+D:\clion\CLION2~1.2\bin\mingw\bin\ar.exe qc libspongechecks.a CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.obj
+D:\clion\CLION2~1.2\bin\mingw\bin\ranlib.exe libspongechecks.a

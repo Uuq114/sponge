@@ -40,6 +40,7 @@ class TCPSender {
     bool _is_timer_running{false};
     bool _is_syn{false};
     bool _is_fin{false};
+    bool _win_zero_flag{false};
 
   public:
     //! Initialize a TCPSender

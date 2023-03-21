@@ -1,0 +1,222 @@
+[
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/libsponge",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/sponge.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\sponge.dir\\byte_stream.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\libsponge\\byte_stream.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/libsponge/byte_stream.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/libsponge",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/sponge.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\sponge.dir\\stream_reassembler.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\libsponge\\stream_reassembler.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/libsponge/stream_reassembler.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/libsponge",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/sponge.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\sponge.dir\\tcp_helpers\\tcp_header.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\libsponge\\tcp_helpers\\tcp_header.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/libsponge/tcp_helpers/tcp_header.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/libsponge",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/sponge.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\sponge.dir\\tcp_helpers\\tcp_segment.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\libsponge\\tcp_helpers\\tcp_segment.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/libsponge/tcp_helpers/tcp_segment.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/libsponge",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/sponge.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\sponge.dir\\tcp_helpers\\tcp_state.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\libsponge\\tcp_helpers\\tcp_state.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/libsponge/tcp_helpers/tcp_state.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/libsponge",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/sponge.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\sponge.dir\\tcp_receiver.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\libsponge\\tcp_receiver.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/libsponge/tcp_receiver.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/libsponge",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/sponge.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\sponge.dir\\util\\address.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\libsponge\\util\\address.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/libsponge/util/address.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/libsponge",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/sponge.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\sponge.dir\\util\\buffer.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\libsponge\\util\\buffer.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/libsponge/util/buffer.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/libsponge",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/sponge.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\sponge.dir\\util\\eventloop.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\libsponge\\util\\eventloop.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/libsponge/util/eventloop.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/libsponge",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/sponge.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\sponge.dir\\util\\file_descriptor.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\libsponge\\util\\file_descriptor.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/libsponge/util/file_descriptor.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/libsponge",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/sponge.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\sponge.dir\\util\\parser.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\libsponge\\util\\parser.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/libsponge/util/parser.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/libsponge",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/sponge.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\sponge.dir\\util\\socket.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\libsponge\\util\\socket.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/libsponge/util/socket.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/libsponge",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/sponge.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\sponge.dir\\util\\tun.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\libsponge\\util\\tun.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/libsponge/util/tun.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/libsponge",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/sponge.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\sponge.dir\\util\\util.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\libsponge\\util\\util.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/libsponge/util/util.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/libsponge",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/sponge.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\sponge.dir\\wrapping_integers.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\libsponge\\wrapping_integers.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/libsponge/wrapping_integers.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/apps",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/webget.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\webget.dir\\webget.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\apps\\webget.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/apps/webget.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/spongechecks.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\spongechecks.dir\\byte_stream_test_harness.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\byte_stream_test_harness.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/byte_stream_test_harness.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/tcp_parser.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\tcp_parser.dir\\tcp_parser.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\tcp_parser.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/tcp_parser.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/fsm_stream_reassembler_single.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\fsm_stream_reassembler_single.dir\\fsm_stream_reassembler_single.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\fsm_stream_reassembler_single.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/fsm_stream_reassembler_single.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/fsm_stream_reassembler_seq.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\fsm_stream_reassembler_seq.dir\\fsm_stream_reassembler_seq.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\fsm_stream_reassembler_seq.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/fsm_stream_reassembler_seq.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/fsm_stream_reassembler_dup.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\fsm_stream_reassembler_dup.dir\\fsm_stream_reassembler_dup.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\fsm_stream_reassembler_dup.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/fsm_stream_reassembler_dup.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/fsm_stream_reassembler_holes.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\fsm_stream_reassembler_holes.dir\\fsm_stream_reassembler_holes.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\fsm_stream_reassembler_holes.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/fsm_stream_reassembler_holes.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/fsm_stream_reassembler_many.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\fsm_stream_reassembler_many.dir\\fsm_stream_reassembler_many.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\fsm_stream_reassembler_many.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/fsm_stream_reassembler_many.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/fsm_stream_reassembler_overlapping.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\fsm_stream_reassembler_overlapping.dir\\fsm_stream_reassembler_overlapping.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\fsm_stream_reassembler_overlapping.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/fsm_stream_reassembler_overlapping.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/fsm_stream_reassembler_win.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\fsm_stream_reassembler_win.dir\\fsm_stream_reassembler_win.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\fsm_stream_reassembler_win.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/fsm_stream_reassembler_win.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/fsm_stream_reassembler_cap.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\fsm_stream_reassembler_cap.dir\\fsm_stream_reassembler_cap.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\fsm_stream_reassembler_cap.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/fsm_stream_reassembler_cap.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/byte_stream_construction.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\byte_stream_construction.dir\\byte_stream_construction.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\byte_stream_construction.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/byte_stream_construction.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/byte_stream_one_write.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\byte_stream_one_write.dir\\byte_stream_one_write.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\byte_stream_one_write.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/byte_stream_one_write.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/byte_stream_two_writes.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\byte_stream_two_writes.dir\\byte_stream_two_writes.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\byte_stream_two_writes.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/byte_stream_two_writes.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/byte_stream_capacity.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\byte_stream_capacity.dir\\byte_stream_capacity.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\byte_stream_capacity.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/byte_stream_capacity.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/byte_stream_many_writes.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\byte_stream_many_writes.dir\\byte_stream_many_writes.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\byte_stream_many_writes.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/byte_stream_many_writes.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/wrapping_integers_cmp.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\wrapping_integers_cmp.dir\\wrapping_integers_cmp.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\wrapping_integers_cmp.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/wrapping_integers_cmp.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/wrapping_integers_unwrap.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\wrapping_integers_unwrap.dir\\wrapping_integers_unwrap.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\wrapping_integers_unwrap.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/wrapping_integers_unwrap.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/wrapping_integers_wrap.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\wrapping_integers_wrap.dir\\wrapping_integers_wrap.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\wrapping_integers_wrap.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/wrapping_integers_wrap.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/wrapping_integers_roundtrip.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\wrapping_integers_roundtrip.dir\\wrapping_integers_roundtrip.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\wrapping_integers_roundtrip.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/wrapping_integers_roundtrip.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/recv_connect.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\recv_connect.dir\\recv_connect.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\recv_connect.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/recv_connect.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/recv_transmit.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\recv_transmit.dir\\recv_transmit.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\recv_transmit.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/recv_transmit.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/recv_window.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\recv_window.dir\\recv_window.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\recv_window.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/recv_window.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/recv_reorder.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\recv_reorder.dir\\recv_reorder.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\recv_reorder.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/recv_reorder.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/recv_close.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\recv_close.dir\\recv_close.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\recv_close.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/recv_close.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/tests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/recv_special.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\recv_special.dir\\recv_special.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\tests\\recv_special.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/tests/recv_special.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/doctests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/address_dt.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\address_dt.dir\\address_dt.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\doctests\\address_dt.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/doctests/address_dt.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/doctests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/parser_dt.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\parser_dt.dir\\parser_dt.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\doctests\\parser_dt.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/doctests/parser_dt.cc"
+},
+{
+  "directory": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/cmake-build-debug/doctests",
+  "command": "D:\\clion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/socket_dt.dir/includes_CXX.rsp  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles\\socket_dt.dir\\socket_dt.cc.obj -c \\\\wsl$$\\Ubuntu-18.04\\home\\uuq114\\cs144\\sponge\\doctests\\socket_dt.cc",
+  "file": "//wsl$/Ubuntu-18.04/home/uuq114/cs144/sponge/doctests/socket_dt.cc"
+}
+]

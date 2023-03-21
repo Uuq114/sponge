@@ -12,28 +12,30 @@ void DUMMY_CODE(Targs &&... /* unused */) {}
 
 using namespace std;
 
-ByteStream::ByteStream(const size_t capacity):
-    _capacity(capacity), _size(0), _n_written(0), _n_read(0), _input_ended(false) {
-}
+ByteStream::ByteStream(const size_t capacity) :
+    _capacity(capacity), _size(0), _n_written(0), _n_read(0),
+    _input_ended(false), _error(false) {}
 
 size_t ByteStream::write(const string &data) {
-    size_t len = min(data.size(), _capacity - _size);
-    _stream_buffer.append(BufferList(move(data.substr(0, len))));
-    _size += len;
-    _n_written += len;
-    return len;
+    size_t write_len = min(data.length(), _capacity - _size);
+    _byte_stream_buf.append(BufferList(std::move(data.substr(0, write_len))));
+    _size += write_len;
+    _n_written += write_len;
+    return write_len;
 }
 
 //! \param[in] len bytes will be copied from the output side of the buffer
 string ByteStream::peek_output(const size_t len) const {
+    std::string str = _byte_stream_buf.concatenate();
     size_t peek_len = min(len, _size);
-    return _stream_buffer.concatenate().substr(0, peek_len);
+//    _n_read += peek_len;
+    return str.substr(0, peek_len);
 }
 
 //! \param[in] len bytes will be removed from the output side of the buffer
 void ByteStream::pop_output(const size_t len) {
     size_t pop_len = min(len, _size);
-    _stream_buffer.remove_prefix(pop_len);
+    _byte_stream_buf.remove_prefix(pop_len);
     _size -= pop_len;
     _n_read += pop_len;
 }
@@ -43,10 +45,9 @@ void ByteStream::pop_output(const size_t len) {
 //! \returns a string
 std::string ByteStream::read(const size_t len) {
     size_t read_len = min(len, _size);
-    string ret = peek_output(read_len);
-    _stream_buffer.remove_prefix(read_len);
+    std::string ret = peek_output(read_len);
+    pop_output(read_len);
     _n_read += read_len;
-    _size -= read_len;
     return ret;
 }
 
@@ -58,7 +59,7 @@ size_t ByteStream::buffer_size() const { return _size; }
 
 bool ByteStream::buffer_empty() const { return _size == 0; }
 
-bool ByteStream::eof() const { return input_ended() && _size == 0; }
+bool ByteStream::eof() const { return _size == 0 && _input_ended; }
 
 size_t ByteStream::bytes_written() const { return _n_written; }
 

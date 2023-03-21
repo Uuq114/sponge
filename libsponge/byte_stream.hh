@@ -3,7 +3,6 @@
 
 #include "buffer.hh"
 #include <string>
-#include <deque>
 
 //! \brief An in-order byte stream.
 
@@ -13,13 +12,12 @@
 class ByteStream {
   private:
     // Your code here -- add private members as necessary.
-    BufferList _stream_buffer = BufferList{};
+    BufferList _byte_stream_buf{};
     size_t _capacity;
     size_t _size;
     size_t _n_written;
     size_t _n_read;
     bool _input_ended;
-
     // Hint: This doesn't need to be a sophisticated data structure at
     // all, but if any of your tests are taking longer than a second,
     // that's a sign that you probably want to keep exploring

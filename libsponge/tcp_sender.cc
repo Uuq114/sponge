@@ -82,41 +82,54 @@ void TCPSender::ack_received(const WrappingInt32 ackno, const uint16_t window_si
         TCPSegment seg = segments_to_be_acked().front();
         uint64_t absolute_seg_end_no = unwrap(seg.header().seqno, _isn, _next_seqno) + seg.length_in_sequence_space();
         if(absolute_seg_end_no <= absolute_ackno) {
+            _ackno = absolute_seg_end_no;
             segments_to_be_acked().pop();
         } else {
             break;
         }
     }
-    if(!segments_out().empty()) {   // 复位timer
+    if(!segments_to_be_acked().empty()) {   // 还有on air的数据，复位timer
         _total_time = 0;
         _is_timer_running = true;
     }
     if(bytes_in_flight() == 0) {    // 没有正在传输的数据，关闭timer
         _is_timer_running = false;
-    } else if(bytes_in_flight() >= _win_size) {
-        _win_size = 0;
-        return;
-    } else {
-        fill_window();
     }
+    if(bytes_in_flight() > window_size) {
+        _win_size = 0;
+        _win_zero_flag = true;
+        return;
+    }
+    if(_win_size == 0) {
+        _win_zero_flag = true;
+        _win_size = 1;
+    } else {
+        _win_zero_flag = false;
+    }
+    fill_window();
 }
 
 //! \param[in] ms_since_last_tick the number of milliseconds since the last call to this method
 void TCPSender::tick(const size_t ms_since_last_tick) {
     _total_time += ms_since_last_tick;
 
-    if(_total_time > _retransmission_timeout && !segments_to_be_acked().empty()) {
-        TCPSegment seg = segments_to_be_acked().front();
-        segments_out().push(seg);
-        ++_consecutive_retransmission;
-        _retransmission_timeout *= 2;
+    if(_total_time >= _retransmission_timeout && !segments_to_be_acked().empty()) {
+        segments_out().push(segments_to_be_acked().front());
+        if(!_win_zero_flag) {
+            ++_consecutive_retransmission;
+            _retransmission_timeout *= 2;
+        }
         _total_time = 0;
     }
-    if(segments_out().empty()) {
+    if(segments_to_be_acked().empty()) {
         _is_timer_running = false;
     }
 }
 
 unsigned int TCPSender::consecutive_retransmissions() const { return _consecutive_retransmission; }
 
-void TCPSender::send_empty_segment() {}
+void TCPSender::send_empty_segment() {
+    TCPSegment seg;
+    seg.header().seqno = next_seqno();
+    segments_out().push(seg);
+}
