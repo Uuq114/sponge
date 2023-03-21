@@ -18,7 +18,29 @@ void get_URL(const string &host, const string &path) {
     // the "eof" (end of file).
 
     cerr << "Function called: get_URL(" << host << ", " << path << ").\n";
-    cerr << "Warning: get_URL() has not been implemented yet.\n";
+//    cerr << "Warning: get_URL() has not been implemented yet.\n";
+
+    /* Steps:
+     * 1. telnet cs144.keithw.org http
+     * 2. GET /hello HTTP/1.1
+     * 3. Host: cs144.keithw.org
+     * 4. Connection: close
+     * 5. hit ENTER one more time
+     * */
+    TCPSocket sock;
+    sock.connect(Address(host, "http"));
+    const string input(
+        "GET " + path + " HTTP/1.1\r\n" +
+        "Host: " + host + "\r\n" +
+        "Connection: close" + "\r\n" +
+        "\r\n"
+    );
+    sock.write(input);
+    sock.shutdown(SHUT_WR);
+    while(!sock.eof()) {
+        cout << sock.read();
+    }
+    sock.close();
 }
 
 int main(int argc, char *argv[]) {
