@@ -22,6 +22,7 @@ class TCPSender {
 
     //! outbound queue of segments that the TCPSender wants sent
     std::queue<TCPSegment> _segments_out{};
+    std::queue<TCPSegment> _segments_to_be_acked{};
 
     //! retransmission timer for the connection
     unsigned int _initial_retransmission_timeout;
@@ -30,7 +31,15 @@ class TCPSender {
     ByteStream _stream;
 
     //! the (absolute) sequence number for the next byte to be sent
-    uint64_t _next_seqno{0};
+    uint64_t _next_seqno{0};    // 下一个发送的字节序号
+    uint64_t _ackno{0};         // 最大的ack的字节序号
+    uint64_t _win_size{1};
+    size_t _consecutive_retransmission{0};
+    unsigned int _total_time{0};
+    unsigned int _retransmission_timeout{0};
+    bool _is_timer_running{false};
+    bool _is_syn{false};
+    bool _is_fin{false};
 
   public:
     //! Initialize a TCPSender
@@ -77,6 +86,7 @@ class TCPSender {
     //! (ackno and window size) before sending.
     std::queue<TCPSegment> &segments_out() { return _segments_out; }
     //!@}
+    std::queue<TCPSegment> &segments_to_be_acked() { return _segments_to_be_acked; }
 
     //! \name What is the next sequence number? (used for testing)
     //!@{
