@@ -140,7 +140,4 @@ void StreamReassembler::merge_substring(size_t index, const std::string& data) {
 //    cout<<"merged_data:"<<merged_data<<endl;
 //    cout<<"merged_data len:"<<merged_data.length()<<endl;
 }
-size_t StreamReassembler::first_unassembled_byte() const {
-    return _first_unassembled_index;
-}
 
