@@ -3,6 +3,7 @@
 #include "tcp_config.hh"
 
 #include <random>
+#include <iostream>
 
 // Dummy implementation of a TCP sender
 
@@ -20,7 +21,8 @@ using namespace std;
 TCPSender::TCPSender(const size_t capacity, const uint16_t retx_timeout, const std::optional<WrappingInt32> fixed_isn)
     : _isn(fixed_isn.value_or(WrappingInt32{random_device()()}))
     , _initial_retransmission_timeout{retx_timeout}
-    , _stream(capacity) {}
+    , _stream(capacity)
+    , _retransmission_timeout{retx_timeout} {}
 
 uint64_t TCPSender::bytes_in_flight() const { return _next_seqno - _ackno; }
 
@@ -37,6 +39,7 @@ void TCPSender::fill_window() {
         --_win_size;
         segments_out().push(seg);
         segments_to_be_acked().push(seg);
+        cout<<"syn sent"<<endl;
     } else if(stream_in().eof()) {  // send fin
         _is_fin = true;
         seg.header().fin = true;
@@ -111,7 +114,10 @@ void TCPSender::ack_received(const WrappingInt32 ackno, const uint16_t window_si
 
 //! \param[in] ms_since_last_tick the number of milliseconds since the last call to this method
 void TCPSender::tick(const size_t ms_since_last_tick) {
+//    cout<<"tick(): since_last_tick:"<<ms_since_last_tick<<endl;
     _total_time += ms_since_last_tick;
+//    cout<<"tick(): total_time:"<<_total_time<<endl;
+//    cout<<"tick(): rx_to:"<<_retransmission_timeout<<endl;
 
     if(_total_time >= _retransmission_timeout && !segments_to_be_acked().empty()) {
         segments_out().push(segments_to_be_acked().front());
