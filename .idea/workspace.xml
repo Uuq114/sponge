@@ -17,8 +17,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6f3ae81-9831-4bb3-8175-037c603e5840" name="Changes" comment="resolve conflict with lab2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libsponge/tcp_connection.cc" beforeDir="false" afterPath="$PROJECT_DIR$/libsponge/tcp_connection.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libsponge/tcp_connection.hh" beforeDir="false" afterPath="$PROJECT_DIR$/libsponge/tcp_connection.hh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/webget_t.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tests/webget_t.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tun.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tun.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/txrx.sh" beforeDir="false" afterPath="$PROJECT_DIR$/txrx.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +81,7 @@
       <workItem from="1679202871262" duration="3083000" />
       <workItem from="1679389513677" duration="8501000" />
       <workItem from="1679471838129" duration="1691000" />
-      <workItem from="1679559521278" duration="11000" />
+      <workItem from="1679559521278" duration="8894000" />
     </task>
     <task id="LOCAL-00001" summary="resolve conflict with lab2">
       <created>1679415091153</created>
